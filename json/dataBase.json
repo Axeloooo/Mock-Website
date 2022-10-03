@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Jamón Fud",
+        "precio": 200,
+        "marca": "Fud"
+    },
+    {
+        "id": 2,
+        "nombre": "Queso Oaxaca La Villita",
+        "precio": 150,
+        "marca": "La Villita"
+    },
+    {
+        "id": 3,
+        "nombre": "Queso Manchego Noche Buena",
+        "precio": 190,
+        "marca": "Noche Buena"
+    },
+    {
+        "id": 4,
+        "nombre": "Jamón de Pierna San Rafael",
+        "precio": 210,
+        "marca": "San Rafael"
+    },
+    {
+        "id": 5,
+        "nombre": "Disfruta de Fresa Yoplait",
+        "precio": 40,
+        "marca": "Yoplait"
+    }
+]

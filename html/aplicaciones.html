@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../media/sigma.png" type="image/x-icon">
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Aplicaciones | Sigma Alimentos</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 fixed-top">
+        <div class="container">
+            <a href="../index.html" class="navbar-brand"><img src="../media/sigma.png" alt="Sigma Alimentos logo" id="sigmaLogo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="../html/productos.html" class="nav-link">
+                            Nuestros Productos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../html/cultura.html" class="nav-link">
+                            Cultura CERO Accidentes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../html/aplicaciones.html" class="nav-link">
+                            Aplicaciones de trabajo
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="https://www.facebook.com/SigmaAlimentos/" class="nav-link">
+                            <img src="../media/facebook.jpg" alt="Facebook Logo" id="facebookLogo">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F915298%2F" class="nav-link">
+                            <img src="../media/linkedin.png" alt="Linkedin Logo" id="linkedinLogo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Form -->
+    <form action="" class="text dark p-5 text-center" id="sectionImage">
+        <div class="container">
+            <div class="d-flex-columnn justify-content-between align-items-center" id="formHTML">
+                <div class="mb-5 d-flex flex-column justify-content-between flex-lg-row">
+                    <h3 class="mb-5 mb-lg-0">¡Aplicación de trabajo!</h3>
+                    <div class="d-flex justify-content-center align-items-center flex-lg-row">
+                        <input class="btn btn-success" value="Usuarios Guardados" id="btnUsuarios">
+                    </div>
+                </div>
+                <div class="input-group mb-4">
+                    <span class="input-group-text">Nombre</span>
+                    <input type="text" class="form-control" placeholder="Axel Omar" id="inNombre">
+                </div>
+                <div class="input-group mb-4">
+                    <span class="input-group-text">Apellido</span>
+                    <input type="text" class="form-control" placeholder="Sánchez Peralta" id="inApellido">
+                </div>
+                <div class="input-group mb-4">
+                    <span class="input-group-text">Email</span>
+                    <input type="email" class="form-control" placeholder="@ejemplo.com" id="inEmail">
+                </div>
+                <div class="input-group mb-4">
+                    <span class="input-group-text">Contraseña</span>
+                    <input type="password" class="form-control" placeholder="**********" id="inPassword">
+                </div>
+                <div class="input-group mb-4">
+                    <span class="input-group-text">Fecha de nacimiento</span>
+                    <input type="date" class="form-control" id="inNacimiento">
+                </div>
+                <div class="mb-4">
+                    <select class="form-select" id="inPais">
+                        <option value="default">Selecionar país de origen</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="bolivia">Bolivia</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="chile">Chile</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="ecuador">Ecuador</option>
+                        <option value="mexico">México</option>
+                        <option value="paraguay">Paraguay</option>
+                        <option value="peru">Perú</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="venezuela">Venezuela</option>
+                    </select>
+                </div>
+                <div class="input-group mb-4">
+                    <span class="input-group-text">Escribe tus hábilidades</span>
+                    <textarea class="form-control"></textarea>
+                </div>
+                <div class="mb-4">
+                    <select class="form-select" id="inPosicion">
+                        <option value="default">Posición a la que deseas aplicar</option>
+                        <option value="administracion">Administración</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="recursosHumanos">Recursos humanos</option>
+                        <option value="produccion">Producción</option>
+                        <option value="ventas">Ventas</option>
+                    </select>
+                </div>
+                <div class="form-check mb-4 bg-light rounded-2 border border-1 px-5 py-1">
+                    <input class="form-check-input" type="checkbox" value="checked" id="inRecordarme">
+                    <label class="form-check-label" for="inRecordarme">
+                        Recordárme en este navegador
+                    </label>
+                </div>                  
+                <div class="d-flex flex-column justify-content-evenly align-items-center mb-4 flex-lg-row">
+                    <input class="btn btn-primary mb-3" type="submit" value="Enviar" id="btnSubmit">
+                    <input class="btn btn-danger mb-3" type="reset" value="Reset" id="btnReset">
+                    <input class="btn btn-warning" value="Borrar Caché" id="btnBorrar">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-secondary text-center p-3">
+        <div class="container">
+            <div class="d-flex-column">
+                <img src="../media/alfa.png" alt="Alfa Logo" id="alfaLogo" class="m-3">
+                <div class="mb-3">
+                    <ul class="nav justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link link-secondary">
+                                SRM
+                            </a>                            
+                        </li>
+                        <li class="nav-item">                        
+                            <a href="#" class="nav-link link-secondary">
+                                Información legal
+                            </a>                            
+                        </li>
+                        <li class="nav-item">                            
+                            <a href="#" class="nav-link link-secondary">
+                                Aviso de privacidad
+                            </a>                            
+                        </li>
+                        <li class="nav-item">                            
+                            <a href="#" class="nav-link link-secondary">
+                                Directorio
+                            </a>                            
+                        </li>
+                        <li class="nav-item">    
+                            <a href="#" class="nav-link link-secondary">
+                                Buzón de transparencia
+                            </a>                            
+                        </li>
+                    </ul>
+                </div>
+                <div class="mb-3">
+                    <p class="fs-6">Sigma Alimentos &copy; Copyright 2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript only -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../js/aplicaciones.js"></script>
+
+</body>
+</html>

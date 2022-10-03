@@ -1,0 +1,46 @@
+/* style SCSS */ /* ids SCSS */ /* mixins SCSS */
+#sectionImage {
+  background-image: url(../media/main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mainInfoBoxes:hover {
+  transform: scale(1.02, 1.02);
+}
+
+#sigmaLogo {
+  width: 100px;
+}
+
+#alfaLogo {
+  width: 64px;
+}
+
+#facebookLogo {
+  width: 40px;
+  height: 32px;
+}
+
+#linkedinLogo {
+  width: 32px;
+  height: 32px;
+}
+
+#productos {
+  width: 100px;
+  height: 125px;
+  margin: 16px;
+}
+
+#productos:hover {
+  transform: scale(1.2, 1.2);
+}
+
+/* mixins SCSS */
+body::before {
+  content: "";
+  display: block;
+  height: 105px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+/* style SCSS */
+
+@import "ids";
+@import "mixins";
+
+body{
+    &::before{
+        content: "";
+        display: block;
+        height: 105px;
+    }
+}

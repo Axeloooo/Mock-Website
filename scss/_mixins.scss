@@ -1,0 +1,8 @@
+/* mixins SCSS */
+
+@mixin background-image {
+    background-image: url(../media/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
